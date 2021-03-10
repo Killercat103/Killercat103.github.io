@@ -1,0 +1,149 @@
+/* Main CSS for the common website template. */
+
+
+/* Creates a Background. */
+
+body {
+	background-color: #101010;
+}
+
+.body {
+	border-style: none;
+	height: 650px;
+	margin: 8px;
+}
+
+
+/*Header.*/
+
+.header {
+	background-color: #151525;
+	padding: 15px;
+	height: 50px;
+}
+
+.title {
+	border-left-style: solid;
+	Border-left-color: #249dff;
+	background-color: #004f89;
+}
+
+
+/* Makes a navigation bar. */
+
+.topnav {
+	background-color: #080500;
+	overflow: auto;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	background-color: #080000;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #002010;
+	color: #0000f0;
+}
+
+.navicon {
+	height: 17px;
+	padding-right: 6px;
+}
+
+.footerbox {
+	padding: 5px;
+	border: solid;
+	border-color:#252525;
+	width: 300px;
+	box-shadow: 3px 3px 5px #101010;
+	background-color: #252525;
+	float: left;
+}
+
+.footer {
+	background-color: #303030;
+	padding: 10px;
+	font-size: 15px;
+	height: 250px;
+}
+
+/* Sets the color of regular links. */
+
+a:link {
+	color:#ffc02b;
+}
+a:visited {
+	color:#0a2ead;
+}
+a:hover {
+	color:#35fc2b;
+}
+a:active {
+	color:#480078;
+}
+
+/* Choses style of specific text. */
+
+* {
+	font-family: "Times New Roman";
+}
+
+h1 {
+	color:#1bbd13;
+}
+
+h2 {
+	color: #2d35df;
+	text-decoration: underline;
+
+}
+
+h3 {
+	color:#1b7d43;
+}
+p {
+	color:#008888;
+}
+
+li {
+	color:#1b6023;
+}
+
+ul {
+	padding-inline-start: 30px;
+}
+
+
+.AKT {
+	padding: 5px;
+}
+
+.embed {
+	float: left;
+	margin-right: 65px;
+	background-color: #202030;
+	padding: 10px;
+}
+
+
+/*Creates buttons*/
+
+.button {
+  border: none;
+  color: #2bcd23;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+	background-color: #004fa9;
+}
