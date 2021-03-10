@@ -1,0 +1,73 @@
+﻿/* Divides website into columns. */
+
+.column {
+    padding: 10px;
+    background-color: #202020;
+    float: left;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+/* Left and right column. */
+.column.left {
+    width: 15%;
+}
+
+/* Middle column. */
+.column.middle {
+    width: 45%;
+}
+
+.column.right {
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.left, .column.right, .column.middle {
+        width: 100%;
+    }
+}
+
+.menuimg {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #614619;
+    box-shadow: 2px 4px 3px #000000;
+    background-color: #614619;
+    max-width: 97%;
+    min-width: 97%;
+}
+
+.linkmenu {
+    border-style: ridge;
+    border-color: #12c024;
+    border-width: 5px;
+    border-radius: 4px;
+    float: left;
+    background-color: #000000;
+    width: 200px;
+    overflow: auto;
+}
+
+.infobutton {
+    border-style: ridge;
+    border-color: #000000;
+    font-size: 30px;
+    background-color: #151515;
+    text-decoration: none;
+    color: #e69f1c;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.infobutton:hover {
+    background-color: #000015;
+}
