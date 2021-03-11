@@ -5,6 +5,7 @@
 
 body {
 	background-color: #101010;
+	color: #ffffff;
 }
 
 .body {
@@ -18,6 +19,7 @@ body {
 
 .header {
 	background-color: #151525;
+	color: #ffffff;
 	height: 50px;
 	padding: 15px;
 }
