@@ -11,7 +11,7 @@
 /* Left and right column. */
 .column.left {
     width: 15%;
-    min-width: 510px;
+    min-width: 210px;
 }
 
 /* Middle column. */
