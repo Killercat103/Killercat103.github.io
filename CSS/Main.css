@@ -18,14 +18,14 @@ body {
 
 .header {
 	background-color: #151525;
-	padding: 15px;
 	height: 50px;
+	padding: 15px;
 }
 
 .title {
-	border-left-style: solid;
-	Border-left-color: #249dff;
 	background-color: #004f89;
+	border-left-color: #249dff;
+	border-left-style: solid;
 }
 
 
@@ -37,9 +37,9 @@ body {
 }
 
 .topnav a {
-	float: left;
-	display: block;
 	background-color: #080000;
+	display: block;
+	float: left;
 	padding: 10px 20px;
 	text-decoration: none;
 }
@@ -55,20 +55,20 @@ body {
 }
 
 .footerbox {
-	padding: 5px;
+	background-color: #252525;
 	border: solid;
 	border-color:#252525;
-	width: 300px;
 	box-shadow: 3px 3px 5px #101010;
-	background-color: #252525;
 	float: left;
+	padding: 5px;
+	width: 300px;
 }
 
 .footer {
 	background-color: #303030;
-	padding: 10px;
 	font-size: 15px;
 	height: 250px;
+	padding: 10px;
 }
 
 /* Sets the color of regular links. */
@@ -123,9 +123,9 @@ ul {
 }
 
 .embed {
+	background-color: #202030;
 	float: left;
 	margin-right: 65px;
-	background-color: #202030;
 	padding: 10px;
 }
 
@@ -133,15 +133,14 @@ ul {
 /*Creates buttons*/
 
 .button {
-  border: none;
-  color: #2bcd23;
-  padding: 10px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
-  cursor: pointer;
+	border: none;
+	color: #2bcd23;
+	cursor: pointer;
+	display: inline-block;
+	margin: 4px 2px;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
 }
 
 .button1 {
