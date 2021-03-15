@@ -31,11 +31,13 @@
 }
 
 .calcfunctions {
+	border-color: #000000;
 	border-style: solid;
 	width: 100%;
 }
 
 .calcnumbers {
+	border-color: #000000;
 	border-style: solid;
 	width: 31%;
 }
