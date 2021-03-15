@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Kalkulator</title>
+		<link rel="stylesheet" type="text/css" href="CSS/Main.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/Calculator-Style.css" />
+		<link rel="icon" type="image/jpg" href="../Bilder/JS_ico.jpg" />
+		<script src="JS/Calculator.js"></script>
+	</head>
+
+	<body>
+		<!-- Makes the title -->
+		<div class="header">
+			<h1 class="title">
+				Calculator
+				<span class="date" id="date">
+					(Date not found.)
+				</span>
+				<script src="JS/Date.js" type="text/javascript"></script>
+			</h1> <br />
+		</div>
+		<!-- Creates navigation bar -->
+		<div class="topnav">
+			<a href="Index.html"><img src="Media/Icon-House.png" alt="House Icon" class="navicon" height="14" />Main Page</a>
+			<a href="Links.html"><img src="Media/Icon-Link.png" alt="Chain Icon" class="navicon" height="14" />Links</a>
+			<a href="WebWindows.html"><img src="Media/Icon-Webpage.png" alt="Webpage Icon" class="navicon" height="14" />WebWindows</a>
+		</div>
+		<br />
+
+		<div class="calcbody">
+			<h1 class="calcdisplay" id="calcdisplay">Try me!</h1>
+			<!-- All the buttons -->
+			<!-- Functions -->
+			<div class="calcfunctions">
+				<button class="calcbutton" type="button" onclick="clearentry()">CE</button>
+				<button class="calcbutton" type="button" onclick="clearall()">CA</button>
+				<button class="calcbutton" type="button" onclick="equation()">=</button>
+				<button class="calcbutton" type="button" onclick="add()">+</button>
+				<button class="calcbutton" type="button" onclick="subtract()">-</button>
+				<button class="calcbutton" type="button" onclick="multiply()">x</button>
+				<button class="calcbutton" type="button" onclick="divide()">:</button>
+				<br />
+				<button class="calcbutton" type="button" onclick="memoryview()">M</button>
+				<button class="calcbutton" type="button" onclick="memoryadd()">M+</button>
+				<button class="calcbutton" type="button" onclick="memorysubtract()">M-</button>
+				<button class="calcbutton" type="button" onclick="memoryclear()">MC</button>
+			</div>
+			<!-- Numbers -->
+			<div class="calcnumbers">
+				<button class="calcbutton" type="button" onclick="one()">1</button>
+				<button class="calcbutton" type="button" onclick="two()">2</button>
+				<button class="calcbutton" type="button" onclick="three()">3</button>
+				<button class="calcbutton" type="button" onclick="four()">4</button>
+				<button class="calcbutton" type="button" onclick="five()">5</button>
+				<button class="calcbutton" type="button" onclick="six()">6</button>
+				<button class="calcbutton" type="button" onclick="seven()">7</button>
+				<button class="calcbutton" type="button" onclick="eight()">8</button>
+				<button class="calcbutton" type="button" onclick="nine()">9</button>
+				<button class="calcbutton" type="button" onclick="zero()">0</button>
+				<button class="calcbutton" type="button" onclick="dot()">.</button>
+				<button class="calcbutton" type="button" onclick="negative()">+/-</button>
+			</div>
+		</div>
+
+		<br />
+		<div class="footer">
+			<!-- Column with info about a person/subject -->
+			<div class="footerbox">
+				<h3>Creator/Programmer:</h3>
+				<ul>
+					<li>"Killercat103"</li>
+				</ul>
+				<h3>Contact info:</h3>
+				<ul>
+					<li><a href="mailto:real.killercat103@gmail.com?subject=Website-(<Title>)">Send Mail:</a> (real.killercat103@gmail.com)</li>
+					<li><a href="https://discord.com/">Discord:</a> Killercat103#0971</li>
+					<li><a href="tel:+4747161004">Phone:</a> (+4747161004)</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>
