@@ -1,0 +1,41 @@
+
+/* Calculator Styling. */
+.calcbody {
+	background-color: #505050;
+	border-color: #202020;
+	border-radius: 7px;
+	border-style: solid;
+	box-shadow: 3px 3px 4px;
+	font-family: Bahnschrift;
+	margin-left: 35%;
+	width: 30%;
+}
+
+.calcdisplay {
+	background-color: #72a3b5;
+	border-color: #454545;
+	border-style: inset;
+	color: #000000;
+	margin-left: 5%;
+	text-align: right;
+	width: 90%;
+}
+
+.calcbutton {
+	background-color: #404040;
+	color: #aaaaaa;
+	height: 30px;
+	margin: 7px;
+	width: 30px;
+	max-width: 20%;
+}
+
+.calcfunctions {
+	border-style: solid;
+	width: 100%;
+}
+
+.calcnumbers {
+	border-style: solid;
+	width: 31%;
+}
