@@ -2,7 +2,7 @@ today = new Date();
 
 var date = String(today.getDate()).padStart(2, "0") + "/" + String(today.getMonth() + 1).padStart(2, "0") + "/" + today.getFullYear();
 
-hours = today.getHours();
+var hours = today.getHours();
 if hours < 12 {
   hours = hours + "AM";
 } else if hours > 12{
