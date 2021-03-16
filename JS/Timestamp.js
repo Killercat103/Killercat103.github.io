@@ -4,13 +4,13 @@ var date = String(today.getDate()).padStart(2, "0") + "/" + String(today.getMont
 
 var hours = today.getHours();
 var time = hours + ":" + String(today.getMinutes()).padStart(2, "0") + ":" + String(today.getSeconds()).padStart(2, "0");
-hours = parseInt(hours)
+hours = parseInt(hours);
 if (hours < 12) {
    time = time + " AM";
 } else if (hours > 12) {
   hours = hours - 12;
   time = time + " PM";
 }
-hours = toString(hours)
+hours = toString(hours);
 timestamp = time + " " + date;
 document.getElementById("date").innerHTML = timestamp;
