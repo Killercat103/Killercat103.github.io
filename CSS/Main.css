@@ -32,9 +32,10 @@ body {
 }
 
 .timestamp {
-	color: #1bdd13;
+	color: #1b9d13;
 	float: right;
 	padding-right: 15px;
+	font-size: 5px;
 }
 
 /* Makes a navigation bar. */
