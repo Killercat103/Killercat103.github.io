@@ -14,7 +14,7 @@ function calctime() {
    }
    hours = toString(hours);
    timestamp = time + " " + date;
-   document.getElementById("date").innerHTML = timestamp;
+   document.getElementById("timestamp").innerHTML = timestamp;
 }
 
 var counter=setInterval(calctime, 1000);
