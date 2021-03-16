@@ -4,7 +4,7 @@ function calctime() {
    var date = String(today.getDate()).padStart(2, "0") + "/" + String(today.getMonth() + 1).padStart(2, "0") + "/" + today.getFullYear();
 
    var hours = today.getHours();
-   var time = hours + ":" + String(today.getMinutes()).padStart(2, "0") + ":" + String(today.getSeconds()).padStart(2, "0");
+   var time = ":" + String(today.getMinutes()).padStart(2, "0") + ":" + String(today.getSeconds()).padStart(2, "0");
    hours = parseInt(hours);
    if (hours < 12) {
       time = time + " AM";
@@ -13,6 +13,7 @@ function calctime() {
       time = time + " PM";
    }
    hours = toString(hours);
+   time = hours + time;
    timestamp = time + " " + date;
    document.getElementById("timestamp").innerHTML = timestamp;
 }
