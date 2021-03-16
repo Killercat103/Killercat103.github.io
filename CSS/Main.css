@@ -31,6 +31,10 @@ body {
 	padding-left: 4px;
 }
 
+.date {
+	float: right;
+	padding-right: 15px;
+}
 
 /* Makes a navigation bar. */
 
