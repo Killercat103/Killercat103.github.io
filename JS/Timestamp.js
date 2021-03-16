@@ -10,4 +10,4 @@ if hours < 12 {
 }
 var time = hours + ":" + today.getMinutes() + ":" + today.getSeconds();
 timestamp = time + " " + date;
-document.getElementById("date").innerHTML = "Timestamp: " + timestamp;
+document.getElementById("date").innerHTML = timestamp;
