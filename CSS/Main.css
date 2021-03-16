@@ -31,7 +31,8 @@ body {
 	padding-left: 4px;
 }
 
-.date {
+.timestamp {
+	color: #1bdd13;
 	float: right;
 	padding-right: 15px;
 }
