@@ -8,7 +8,7 @@ timestamp = time + " " + date;
 if (hours < 12) {
   timestamp = timestamp + " AM";
 } else if (hours > 12) {
-  hours = hours - 12 +;
+  hours = hours - 12;
   timestamp = timestamp + " PM";
 }
 document.getElementById("date").innerHTML = timestamp;
