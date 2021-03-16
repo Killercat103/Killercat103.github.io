@@ -26,10 +26,10 @@ function calctime() {
 		PM()
 	}
 
-   hours = hours.toString();
-   time = hours + time;
-   timestamp = time + " " + date;
-   document.getElementById("timestamp").innerHTML = timestamp;
+	hours = hours.toString();
+	time = hours + time;
+	timestamp = time + " " + date;
+	document.getElementById("timestamp").innerHTML = timestamp;
 }
 
 var counter=setInterval(calctime, 1000);
