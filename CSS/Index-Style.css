@@ -52,6 +52,7 @@
 	border-style: ridge;
 	border-width: 5px;
 	float: left;
+	max-width: 200px;
 	overflow: auto;
 	width: 85%;
 }
