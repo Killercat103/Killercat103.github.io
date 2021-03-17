@@ -31,5 +31,5 @@ function calctime() {
 	timestamp = time + " " + date;
 	document.getElementById("timestamp").innerHTML = timestamp;
 }
-
+console.log(today.toTimeString());
 var counter=setInterval(calctime, 1000);
