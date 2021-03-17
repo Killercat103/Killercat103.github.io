@@ -47,14 +47,15 @@
 }
 
 .linkmenu {
-	border-style: ridge;
-	border-color: #12c024;
-	border-width: 5px;
-	border-radius: 4px;
-	float: left;
 	background-color: #000000;
-	width: 200px;
+	border-color: #12c024;
+	border-radius: 4px;
+	border-style: ridge;
+	border-width: 5px;
+	float: left;
+	max-width: 200px;
 	overflow: auto;
+	width: 85%;
 }
 
 .infobutton {
