@@ -29,13 +29,6 @@
 	clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 100%) {
-	.column.left, .column.right, .column.middle {
-		width: 100%;
-	}
-}
-
 .menuimg {
 	border-width: 3px;
 	box-shadow: 2px 4px 3px #000000;
