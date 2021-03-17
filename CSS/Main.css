@@ -166,10 +166,10 @@ ul {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #408040;
+	background: #306030;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #255025;
+	background: #204020;
 }
