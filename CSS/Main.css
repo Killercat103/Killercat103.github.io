@@ -6,6 +6,7 @@
 body {
 	background-color: #101010;
 	color: #ffffff;
+	font-family: "Times New Roman";
 }
 
 .body {
@@ -101,10 +102,6 @@ a:active {
 }
 
 /* Choses style of specific text. */
-
-* {
-	font-family: "Times New Roman";
-}
 
 h1 {
 	color:#1bbd13;
