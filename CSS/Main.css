@@ -19,7 +19,7 @@ body {
 
 .header {
 	background-color: #151525;
-	color: #ffffff;
+	color: #1bbd13;
 	height: 50px;
 	padding: 15px;
 }
@@ -28,6 +28,7 @@ body {
 	background-color: #004f89;
 	border-left-color: #249dff;
 	border-left-style: solid;
+	color: #1bbd13;
 	padding-left: 4px;
 }
 
@@ -42,13 +43,15 @@ body {
 
 .topnav {
 	background-color: #080500;
+	color: #ad1313;
 	overflow: auto;
 }
 
 .topnav a {
 	background-color: #080000;
-	display: block;
+	color: #ad1313;
 	float: left;
+	display: block;
 	padding: 10px 20px;
 	text-decoration: none;
 }
