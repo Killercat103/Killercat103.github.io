@@ -71,6 +71,7 @@ body {
 .footerbox {
 	background-color: #252525;
 	box-shadow: 3px 3px 5px #101010;
+	color: #ffffff;
 	float: left;
 	padding: 5px;
 	width: 300px;
@@ -147,6 +148,7 @@ ul {
 
 .button {
 	border: none;
+	background-color: #004fa9;
 	color: #2bcd23;
 	cursor: pointer;
 	display: inline-block;
@@ -154,10 +156,6 @@ ul {
 	padding: 10px 32px;
 	text-align: center;
 	text-decoration: none;
-}
-
-.button1 {
-	background-color: #004fa9;
 }
 
 /* width */
