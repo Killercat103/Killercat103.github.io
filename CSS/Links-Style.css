@@ -1,14 +1,14 @@
-﻿.list {
-    border-left-style: solid;
-    Border-left-color: #333333;
-    background-color: #050505;
+.list {
+	border-left-color: #333333;
+	border-left-style: solid;
+	background-color: #050505;
 }
 
 .checkpoint {
-    background-color: #002040;
-    padding-left: 8px;
+	background-color: #002040;
+	padding-left: 8px;
 }
 
 .linkrow {
-    padding-left: 60px;
+	padding-left: 60px;
 }
