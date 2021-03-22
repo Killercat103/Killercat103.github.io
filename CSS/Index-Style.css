@@ -4,8 +4,8 @@
 	padding: 10px;
 	background-color: #202020;
 	float: left;
-	margin-right: 14px;
-	margin-left: 14px;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 /* Left and right column. */
@@ -15,7 +15,7 @@
 
 /* Middle column. */
 .column.middle {
-	width: 45%;
+	width: 40%;
 }
 
 .column.right {
