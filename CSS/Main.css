@@ -113,23 +113,23 @@ a:active {
 /* Choses style of specific text. */
 
 h1 {
-	color:#1bbd13;
+	color: #1dcc14;
 }
 
 h2 {
-	color:#1b7d43;
+	color: #00D165;
 }
 
 h3 {
-	color:#06681d;
+	color: #06681d;
 }
 
 p {
-	color:#008888;
+	color: #008888;
 }
 
 li {
-	color:#1b6023;
+	color: #1b6023;
 }
 
 ul {
