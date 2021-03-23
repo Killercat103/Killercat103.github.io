@@ -93,6 +93,14 @@ body {
 	margin-left: 1%;
 }
 
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Sets the color of regular links. */
 
 a:link {
