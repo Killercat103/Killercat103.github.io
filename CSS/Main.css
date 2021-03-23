@@ -26,17 +26,15 @@ body {
 }
 
 .title {
-	background-color: #004f89;
+	background-color: #003962;
 	border-left-color: #249dff;
 	border-left-style: solid;
-	color: #1bbd13;
+	color: #37e52e;
 	padding-left: 4px;
 	padding-right: 15px;
 }
 
 .timestamp {
-	background-color: #004f89;
-	color: #1b9d13;
 	float: right;
 	font-size: 20px;
 	padding: 1px;
