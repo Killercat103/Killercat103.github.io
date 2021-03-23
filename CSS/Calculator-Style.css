@@ -23,11 +23,10 @@
 
 .calcbutton {
 	background-color: #404040;
-	color: #aaaaaa;
+	color: #ffffff;
 	height: 30px;
 	margin: 7px;
 	width: 30px;
-	max-width: 20%;
 }
 
 .calcfunctions {
