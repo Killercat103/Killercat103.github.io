@@ -12,13 +12,6 @@
 	width: 25%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
 .menuimg {
 	border-width: 3px;
 	box-shadow: 2px 4px 3px #000000;
