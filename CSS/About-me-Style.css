@@ -1,0 +1,13 @@
+.body {
+	border-style: none;
+	height: 650px;
+	margin: 8px;
+}
+
+.embed {
+	background-color: #202030;
+	color: #ffffff;
+	float: left;
+	margin-right: 65px;
+	padding: 10px;
+}
