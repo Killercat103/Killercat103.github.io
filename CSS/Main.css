@@ -174,7 +174,6 @@ ul {
 /* width */
 ::-webkit-scrollbar {
 	width: 13px;
-	cursor: ns-resize;
 }
 
 /* Track */
