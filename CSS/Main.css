@@ -169,6 +169,7 @@ ul {
 	text-align: center;
 	text-decoration: none;
 }
+/* Non Standard Styling */
 
 /* width */
 ::-webkit-scrollbar {
@@ -188,4 +189,8 @@ ul {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 	background: #204020;
+}
+
+.custom-cur {
+  Aero-Arrow: url("Media/middlefinger.cur"), default;
 }
