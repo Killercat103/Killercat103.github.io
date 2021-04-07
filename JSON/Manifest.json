@@ -1,8 +1,12 @@
 {
+	"name": "Killercat's Website",
+	"short_name": "K.C. Site",
 	"start_url": "../Index.html",
-	"icons": {
-		"src": "../Media/K.C.103-Logo.webp",
-		"type": "image/webp"
-	},
+	"icons": [
+		{
+			"src": "../Media/K.C.103-Logo.webp",
+			"type": "image/webp"
+		},
+	],
 	"theme_color": "#101010"
 }
