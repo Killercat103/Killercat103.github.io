@@ -5,8 +5,10 @@
 	"icons": [
 		{
 			"src": "../Media/K.C.103-Logo.webp",
-			"type": "image/webp"
+			"type": "image/webp",
+			"sizes": "192x192"
 		}
 	],
+	"display": "standalone",
 	"theme_color": "#101010"
 }
